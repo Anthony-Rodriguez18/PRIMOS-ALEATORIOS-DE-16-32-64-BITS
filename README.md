@@ -10,6 +10,9 @@ MILLER:Utilizando el compuesto halla la fidelidad si el número es primo o no (t
 
 FINALIZANDO:
 "for _ in iter(int, 1)" --> Es un iterador infinito por lo cual se pone un if y este cuando llegue el contador a 10 termine el bucle con un break.
+
 "b = random.getrandbits(VALUE)" --> para generar numeros binarios de manera aleatoria, donde value toma la cantidad de bits utilizados.
+
 Luego con "if (Miller(b, s))" se comprueba que si es primo con un seguridad dependiendo de S (En nuestro caso utilizamos 10 porque son menos numeros generados y la comprobacion de Miller demora casi el mismo tiempo que con 5). Posteriormente si da true el test ese valor lo imprime y en contador aumenta.
+
 Este proceso se repite para 16, 32 y 64 bits.
