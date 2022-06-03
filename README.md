@@ -1,6 +1,6 @@
 # PRIMOS-ALEATORIOS-DE-16-32-64-BITS
 
-En presente Repositorio se nos pidio crear numeros binarios primos de 16, 32 y 64 bits; donde utilizamos tres algoritmos que nos ayudaran para crear estos números un EXPMOD, COMPUESTO, MILLER_RABIN.
+En el presente Repositorio se nos pidio crear numeros binarios primos de 16, 32 y 64 bits; donde utilizamos tres algoritmos que nos ayudaran para crear estos números un EXPMOD, COMPUESTO, MILLER_RABIN.
 
 EXPMOD:La exponenciación modular para hallar el residuo de algun número de una gran cantidad de cifras (caso de 16bits a más), donde "y" toma el valor de exponente (donde su valor es p-1), "a" como base y "p" el número que comprobaremos durante el proceso de compuesto o no.
 
