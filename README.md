@@ -4,7 +4,7 @@ En presente Repositorio se nos pidio crear numeros binarios primos de 16, 32 y 6
 
 EXPMOD:La exponenciación modular para hallar el residuo de algun número de una gran cantidad de cifras (caso de 16bits a más), donde "y" toma el valor de exponente (donde su valor es p-1), "a" como base y "p" el número que comprobaremos durante el proceso de compuesto o no.
 
-COMPUESTO:Para comprobar si el número es compuesto (valor false) mediante el residuo obtenido en caso que sea 1 o el numero que se comprueba menos 1 entonces descimos que es pseudo primo, luego comprueba si ese número lo divide en n-1 se considera pseudo.
+COMPUESTO:Para comprobar si el número es compuesto (valor false) mediante el residuo obtenido en caso que sea 1 o el numero que se comprueba menos 1 entonces descimos que es pseudo primo, luego comprueba si ese número lo divide en n-1 se considera pseudo. (ojo a tomara el valor de la base para residuo que tomara valores desde 2 ya que utilizar 0 o 1 nos daría 1 o el mismo número y así el EXPMOD no funcionaria)
 
 MILLER:Utilizando el compuesto halla la fidelidad si el número es primo o no (teniendo en cuenta a los pseudoprimos) 
 
